@@ -1,0 +1,29 @@
+{
+  "preset": "google",
+  "maximumLineLength": null,
+  "disallowMultipleVarDecl": { "allExcept": [ "undefined" ] },
+  "disallowMultipleSpaces": true,
+  "disallowTrailingWhitespace": "ignoreEmptyLines",
+  "requireCamelCaseOrUpperCaseIdentifiers": null,
+  "disallowSpacesInsideParentheses": null,
+  "disallowSpacesInsideArrayBrackets": null,
+  "disallowSpacesInsideObjectBrackets": null,
+  "validateQuoteMarks": {
+    "mark": "'",
+    "escape": true
+  },
+  "requireDollarBeforejQueryAssignment": true,
+  "jsDoc": {
+    "checkAnnotations": {
+      "preset": "jsdoc3"
+    },
+    "checkParamNames": true,
+    "checkRedundantParams": true,
+    "requireParamTypes": true,
+    "checkReturnTypes": true,
+    "checkRedundantReturns": true,
+    "requireReturnTypes": true,
+    "checkRedundantAccess": "enforceLeadingUnderscore",
+    "requireNewlineAfterDescription": true
+  }
+}

@@ -1,0 +1,6 @@
+tmdb_cache/
+node_modules/
+_private.js
+movie-blog.sublime-project
+movie-blog.sublime-workspace
+posts.xml
